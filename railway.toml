@@ -1,0 +1,6 @@
+[build]
+dockerfilePath = "frontend/Dockerfile"
+watchPatterns = ["frontend/**"]
+
+[deploy]
+startCommand = "nginx -g 'daemon off;'"
