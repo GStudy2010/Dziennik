@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./schematEksportuDziennika.xsl"?>
+<Dziennik
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="./schematEksportuDziennika.xsd">
+    <PedagogPsychologLogopeda>
+        <Uczniowie>
+            <Uczen id="1">
+                <numer>1</numer>
+                <imie>Anna</imie>
+                <nazwisko>Nowak</nazwisko>
+                <numerOddzialu>1</numerOddzialu>
+                <nazwaOddzialu>A</nazwaOddzialu>
+            </Uczen>
+            <Uczen id="2">
+                <numer>2</numer>
+                <imie>Marian</imie>
+                <nazwisko>Nowakowski</nazwisko>
+                <numerOddzialu>1</numerOddzialu>
+                <nazwaOddzialu>A</nazwaOddzialu>
+            </Uczen>
+        </Uczniowie>
+        <DniTygodnia>
+            <Dzien id="1">
+                <numer>1</numer>
+                <nazwa>Poniedziałek</nazwa>
+            </Dzien>
+            <Dzien id="2">
+                <numer>2</numer>
+                <nazwa>Wtorek</nazwa>
+            </Dzien>
+            <Dzien id="3">
+                <numer>3</numer>
+                <nazwa>Środa</nazwa>
+            </Dzien>
+            <Dzien id="4">
+                <numer>4</numer>
+                <nazwa>Czwartek</nazwa>
+            </Dzien>
+            <Dzien id="5">
+                <numer>5</numer>
+                <nazwa>Piątek</nazwa>
+            </Dzien>
+        </DniTygodnia>
+        <GodzinyLekcyjne>
+            <Godzina id="1">
+                <numer>1</numer>
+                <czasOd>08:00</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+            <Godzina id="2">
+                <numer>2</numer>
+                <czasOd>09:00</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+            <Godzina id="3">
+                <numer>3</numer>
+                <czasOd>09:55</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+            <Godzina id="4">
+                <numer>4</numer>
+                <czasOd>10:50</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+            <Godzina id="5">
+                <numer>5</numer>
+                <czasOd>12:00</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+        </GodzinyLekcyjne>
+        <RozkladWlasnyZajec>
+            <PlanZajec>
+                <obowiazujeOdDnia>2024-09-01</obowiazujeOdDnia>
+                <Wpis>
+                    <dzienTygodniaRef id="1"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>A</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="1"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>B</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="1"/>
+                    <godzinaLekcyjnaRef id="3"/>
+                    <szczegoly>C</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="1"/>
+                    <godzinaLekcyjnaRef id="4"/>
+                    <szczegoly>D</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="2"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>E</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="2"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>F</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="2"/>
+                    <godzinaLekcyjnaRef id="3"/>
+                    <szczegoly>G</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="3"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>H</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="3"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>I</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="3"/>
+                    <godzinaLekcyjnaRef id="3"/>
+                    <szczegoly>J</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="4"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>K</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="4"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>L</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="5"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>M</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="5"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>N</szczegoly>
+                </Wpis>
+            </PlanZajec>
+            <PlanZajec>
+                <obowiazujeOdDnia>2024-09-01</obowiazujeOdDnia>
+                <Wpis>
+                    <dzienTygodniaRef id="1"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>A</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="1"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>B</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="1"/>
+                    <godzinaLekcyjnaRef id="3"/>
+                    <szczegoly>C</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="1"/>
+                    <godzinaLekcyjnaRef id="4"/>
+                    <szczegoly>D</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="2"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>E</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="2"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>F</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="2"/>
+                    <godzinaLekcyjnaRef id="3"/>
+                    <szczegoly>G</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="3"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>H</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="3"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>I</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="3"/>
+                    <godzinaLekcyjnaRef id="3"/>
+                    <szczegoly>J</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="4"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>K</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="4"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>L</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="5"/>
+                    <godzinaLekcyjnaRef id="1"/>
+                    <szczegoly>M</szczegoly>
+                </Wpis>
+                <Wpis>
+                    <dzienTygodniaRef id="5"/>
+                    <godzinaLekcyjnaRef id="2"/>
+                    <szczegoly>N</szczegoly>
+                </Wpis>
+            </PlanZajec>
+        </RozkladWlasnyZajec>
+        <ZajeciaICzynnosciPrzeprowadzoneWPoszczegolnychDniach>
+            <Wpis>
+                <data>2024-11-09</data>
+                <uczenRef id="1"/>
+                <szczegoly>Szczegóły</szczegoly>
+            </Wpis>
+            <Wpis>
+                <data>2024-11-10</data>
+                <uczenRef id="2"/>
+                <szczegoly>Szczegóły</szczegoly>
+                <formaKontaktu>Telefon</formaKontaktu>
+                <nazwaInstytucji>Przykładowa instytucja</nazwaInstytucji>
+            </Wpis>
+        </ZajeciaICzynnosciPrzeprowadzoneWPoszczegolnychDniach>
+    </PedagogPsychologLogopeda>
+</Dziennik>

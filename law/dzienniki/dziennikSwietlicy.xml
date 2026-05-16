@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./schematEksportuDziennika.xsl"?>
+<Dziennik xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="./schematEksportuDziennika.xsd">
+    <Swietlicy>
+        <NazwaPlacowki>Świetlica</NazwaPlacowki>
+        <AdresPlacowki>
+            <kodPocztowy>01-123</kodPocztowy>
+            <miejscowosc>Warszawa</miejscowosc>
+            <ulica>Ogrodowa</ulica>
+            <numerDomu>4</numerDomu>
+            <numerLokalu></numerLokalu>
+        </AdresPlacowki>
+        <Wojewodztwo>mazowieckie</Wojewodztwo>
+        <Gmina>Warszawa</Gmina>
+        <RokSzkolny>2024/2025</RokSzkolny>
+        <Uczniowie>
+            <Uczen id="1">
+                <numer>1</numer>
+                <imie>Anna</imie>
+                <nazwisko>Nowak</nazwisko>
+                <numerOddzialu>1</numerOddzialu>
+                <nazwaOddzialu>A</nazwaOddzialu>
+            </Uczen>
+            <Uczen id="2">
+                <numer>1</numer>
+                <imie>Adam</imie>
+                <nazwisko>Zawadzki</nazwisko>
+                <numerOddzialu>2</numerOddzialu>
+                <nazwaOddzialu>B</nazwaOddzialu>
+            </Uczen>
+        </Uczniowie>
+        <PlanPracySwietlicy>
+            <Wpis>
+                <TerminRealizacji>2024-09-01</TerminRealizacji>
+                <TematTygodnia>Temat tygodnia</TematTygodnia>
+                <CeleDydaktycznoWychowawcze>Cele Dydaktyczno Wychowawcze</CeleDydaktycznoWychowawcze>
+                <SposobyRealizacji>Sposoby Realizacji</SposobyRealizacji>
+            </Wpis>
+        </PlanPracySwietlicy>
+        <ObecnosciSwietlica>
+            <Wpis>
+                <uczenRef id="1"/>
+                <data>2024-09-01</data>
+                <statusObecnosciRef id="1"/>
+            </Wpis>
+        </ObecnosciSwietlica>
+        <StatusyObecnosci>
+            <Status id="1">
+                <wartosc>O</wartosc>
+            </Status>
+            <Status id="2">
+                <wartosc>N</wartosc>
+            </Status>
+            <Status id="3">
+                <wartosc>NU</wartosc>
+            </Status>
+            <Status id="4">
+                <wartosc>Z</wartosc>
+            </Status>
+            <Status id="5">
+                <wartosc>S</wartosc>
+            </Status>
+        </StatusyObecnosci>
+    </Swietlicy>
+</Dziennik>
+

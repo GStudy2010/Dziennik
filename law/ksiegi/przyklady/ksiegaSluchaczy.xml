@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../schematEksportuDziennika.xsl"?>
+<Ksiega
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../schematKsiegi.xsd">
+    <Sluchaczy>
+    <NazwaPlacowki>Szkoła policealna numer 1</NazwaPlacowki>
+    <AdresPlacowki>
+        <KodPocztowy>01-123</KodPocztowy>
+        <Miejscowosc>Warszawa</Miejscowosc>
+        <Ulica>Ogrodowa</Ulica>
+        <NumerDomu>1</NumerDomu>
+        <NumerLokalu></NumerLokalu>
+    </AdresPlacowki>
+    <Wojewodztwo>mazowieckie</Wojewodztwo>
+    <Gmina>Warszawa Wola</Gmina>
+    <DataZalozeniaEwidencji>01.09.2020 r.</DataZalozeniaEwidencji>
+    <Sluchacze>
+        <Sluchacz id="1">
+            <Numer>1</Numer>
+            <Imie>Anna</Imie>
+            <Nazwisko>Nowak</Nazwisko>
+            <DataUrodzenia>2000-05-05</DataUrodzenia>
+            <MiejsceUrodzenia>Gdańsk</MiejsceUrodzenia>
+            <Pesel>001291019122</Pesel>
+            <Adres>
+                <KodPocztowy>00-123</KodPocztowy>
+                <Miejscowosc>Warszawa</Miejscowosc>
+                <Ulica>Aleje Jerozolimskie</Ulica>
+                <NumerDomu>1</NumerDomu>
+                <NumerLokalu>3</NumerLokalu>
+            </Adres>
+            <DataRozpoczeciaNauki>01.09.2020 r.</DataRozpoczeciaNauki>
+            <Oddzial>1A</Oddzial>
+            <DataIPrzyczynaOpuszczeniaSzkoly>12.12.2020 r. Przeprowadzka</DataIPrzyczynaOpuszczeniaSzkoly>
+        </Sluchacz>
+        <Sluchacz id="2">
+            <Numer>2</Numer>
+            <Imie>Marian</Imie>
+            <Nazwisko>Nowakowski</Nazwisko>
+            <DataUrodzenia>2000-05-05</DataUrodzenia>
+            <MiejsceUrodzenia>Warszawa</MiejsceUrodzenia>
+            <NazwaINumerDokumentuPotwierdzajacegoTozsamosc>Dowód osobisty AZA 1234</NazwaINumerDokumentuPotwierdzajacegoTozsamosc>
+            <Adres>
+                <KodPocztowy>00-170</KodPocztowy>
+                <Miejscowosc>Warszawa</Miejscowosc>
+                <Ulica>Marszałkowska</Ulica>
+                <NumerDomu>1</NumerDomu>
+                <NumerLokalu>3</NumerLokalu>
+            </Adres>
+            <DataRozpoczeciaNauki>01.09.2019 r.</DataRozpoczeciaNauki>
+            <Oddzial>1B</Oddzial>
+            <DataUkonczeniaSzkoly>26.06.2020 r.</DataUkonczeniaSzkoly>
+        </Sluchacz>
+    </Sluchacze>
+    </Sluchaczy>
+</Ksiega>

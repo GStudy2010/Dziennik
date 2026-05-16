@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./schematEksportuDziennika.xsl"?>
+<Dziennik
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="./schematEksportuDziennika.xsd">
+    <ZajecRewalidacyjnoWychowawczych>
+        <Uczniowie>
+            <Uczen id="1">
+                <numer>1</numer>
+                <imie>Anna</imie>
+                <nazwisko>Nowak</nazwisko>
+                <dataUrodzenia>2000-05-05</dataUrodzenia>
+                <adres>
+                    <kodPocztowy>00-123</kodPocztowy>
+                    <miejscowosc>Warszawa</miejscowosc>
+                    <ulica>Aleje Jerozolimskie</ulica>
+                    <numerDomu>1</numerDomu>
+                    <numerLokalu>3</numerLokalu>
+                </adres>
+                <numerOddzialu>1</numerOddzialu>
+                <nazwaOddzialu>A</nazwaOddzialu>
+                <Rodzice>
+                    <Rodzic id="1">
+                        <imie>Wiktor</imie>
+                        <nazwisko>Nowak</nazwisko>
+                        <adres>
+                            <kodPocztowy>00-123</kodPocztowy>
+                            <miejscowosc>Warszawa</miejscowosc>
+                            <ulica>Aleje Jerozolimskie</ulica>
+                            <numerDomu>2</numerDomu>
+                            <numerLokalu>4</numerLokalu>
+                        </adres>
+                        <mail>wiktor.nowak@poczta.pl</mail>
+                        <telefon>555-55-55</telefon>
+                    </Rodzic>
+                    <Rodzic id="2">
+                        <imie>Anna</imie>
+                        <nazwisko>Nowak</nazwisko>
+                        <adres>
+                            <kodPocztowy>00-123</kodPocztowy>
+                            <miejscowosc>Warszawa</miejscowosc>
+                            <ulica>Aleje Jerozolimskie</ulica>
+                            <numerDomu>2</numerDomu>
+                            <numerLokalu>4</numerLokalu>
+                        </adres>
+                        <mail>anna.nowak@poczta.pl</mail>
+                        <telefon>555-55-56</telefon>
+                    </Rodzic>
+                </Rodzice>
+            </Uczen>
+            <Uczen id="2">
+                <numer>2</numer>
+                <imie>Marian</imie>
+                <nazwisko>Nowakowski</nazwisko>
+                <dataUrodzenia>2000-05-05</dataUrodzenia>
+                <miejsceUrodzenia>Warszawa</miejsceUrodzenia>
+                <adres>
+                    <kodPocztowy>00-170</kodPocztowy>
+                    <miejscowosc>Warszawa</miejscowosc>
+                    <ulica>Marszałkowska</ulica>
+                    <numerDomu>1</numerDomu>
+                    <numerLokalu>3</numerLokalu>
+                </adres>
+                <numerOddzialu>1</numerOddzialu>
+                <nazwaOddzialu>A</nazwaOddzialu>
+                <Rodzice>
+                    <Rodzic id="1">
+                        <imie>Wiktor</imie>
+                        <nazwisko>Nowak</nazwisko>
+                        <adres>
+                            <kodPocztowy>00-123</kodPocztowy>
+                            <miejscowosc>Warszawa</miejscowosc>
+                            <ulica>Aleje Jerozolimskie</ulica>
+                            <numerDomu>2</numerDomu>
+                            <numerLokalu>4</numerLokalu>
+                        </adres>
+                        <mail>wiktor.nowak@poczta.pl</mail>
+                        <telefon>555-55-55</telefon>
+                    </Rodzic>
+                    <Rodzic id="2">
+                        <imie>Anna</imie>
+                        <nazwisko>Nowak</nazwisko>
+                        <adres>
+                            <kodPocztowy>00-123</kodPocztowy>
+                            <miejscowosc>Warszawa</miejscowosc>
+                            <ulica>Aleje Jerozolimskie</ulica>
+                            <numerDomu>2</numerDomu>
+                            <numerLokalu>4</numerLokalu>
+                        </adres>
+                        <mail>anna.nowak@poczta.pl</mail>
+                        <telefon>555-55-56</telefon>
+                    </Rodzic>
+                </Rodzice>
+            </Uczen>
+        </Uczniowie>
+        <Nauczyciele>
+            <Nauczyciel id="1">
+                <imie>Witold</imie>
+                <nazwisko>Wańkowski</nazwisko>
+                <numer>123</numer>
+            </Nauczyciel>
+            <Nauczyciel id="2">
+                <imie>Marian</imie>
+                <nazwisko>Nowak</nazwisko>
+                <numer>456</numer>
+            </Nauczyciel>
+        </Nauczyciele>
+        <DniTygodnia>
+            <Dzien id="1">
+                <numer>1</numer>
+                <nazwa>Poniedziałek</nazwa>
+            </Dzien>
+            <Dzien id="2">
+                <numer>2</numer>
+                <nazwa>Wtorek</nazwa>
+            </Dzien>
+            <Dzien id="3">
+                <numer>3</numer>
+                <nazwa>Środa</nazwa>
+            </Dzien>
+            <Dzien id="4">
+                <numer>4</numer>
+                <nazwa>Czwartek</nazwa>
+            </Dzien>
+            <Dzien id="5">
+                <numer>5</numer>
+                <nazwa>Piątek</nazwa>
+            </Dzien>
+        </DniTygodnia>
+        <GodzinyLekcyjne>
+            <Godzina id="1">
+                <numer>1</numer>
+                <czasOd>08:00</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+            <Godzina id="2">
+                <numer>2</numer>
+                <czasOd>09:00</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+            <Godzina id="3">
+                <numer>3</numer>
+                <czasOd>09:55</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+            <Godzina id="4">
+                <numer>4</numer>
+                <czasOd>10:50</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+            <Godzina id="5">
+                <numer>5</numer>
+                <czasOd>12:00</czasOd>
+                <czasTrwania>45</czasTrwania>
+            </Godzina>
+        </GodzinyLekcyjne>
+        <Przedmioty>
+            <Przedmiot id="1">
+                <nazwa>Biologia</nazwa>
+                <numer>2</numer>
+                <nazwaSkrocona>Biol</nazwaSkrocona>
+                <czyDodatkowy>false</czyDodatkowy>
+            </Przedmiot>
+            <Przedmiot id="2">
+                <nazwa>Geografia</nazwa>
+                <numer>4</numer>
+                <nazwaSkrocona>Geo</nazwaSkrocona>
+                <czyDodatkowy>false</czyDodatkowy>
+            </Przedmiot>
+            <Przedmiot id="3">
+                <nazwa>Matematyka</nazwa>
+                <numer>7</numer>
+                <nazwaSkrocona>Mat</nazwaSkrocona>
+                <czyDodatkowy>false</czyDodatkowy>
+            </Przedmiot>
+        </Przedmioty>
+        <PlanyZajec>
+            <Plan>
+                <ObowiazujeOdDnia>2024-09-01</ObowiazujeOdDnia>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+            </Plan>
+            <Plan>
+                <ObowiazujeOdDnia>2024-11-01</ObowiazujeOdDnia>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="1"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                        <Wpis>
+                            <PrzedmiotRef id="2"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="2"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="2"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="3"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="4"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="1"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="2"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="3"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="4"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+                <Wpis>
+                    <DzienTygodniaRef id="5"/>
+                    <GodzinaLekcyjnaRef id="5"/>
+                    <Zajecia>
+                        <Wpis>
+                            <PrzedmiotRef id="1"/>
+                            <Nauczyciele>
+                                <NauczycielRef id="1"/>
+                            </Nauczyciele>
+                        </Wpis>
+                    </Zajecia>
+                </Wpis>
+            </Plan>
+        </PlanyZajec>
+        <StatusyObecnosci>
+            <Status id="1">
+                <wartosc>O</wartosc>
+            </Status>
+            <Status id="2">
+                <wartosc>N</wartosc>
+            </Status>
+            <Status id="3">
+                <wartosc>NU</wartosc>
+            </Status>
+            <Status id="4">
+                <wartosc>Z</wartosc>
+            </Status>
+            <Status id="5">
+                <wartosc>S</wartosc>
+            </Status>
+        </StatusyObecnosci>
+        <Frekwencja>
+            <Wpis>
+                <uczenRef id="1"/>
+                <data>2024-09-01</data>
+                <godzinaLekcyjnaRef id="1"/>
+                <statusObecnosciRef id="1" />
+            </Wpis>
+            <Wpis>
+                <uczenRef id="1"/>
+                <data>2024-09-01</data>
+                <godzinaLekcyjnaRef id="2"/>
+                <statusObecnosciRef id="2" />
+            </Wpis>
+            <Wpis>
+                <uczenRef id="1"/>
+                <data>2024-09-01</data>
+                <godzinaLekcyjnaRef id="3"/>
+                <statusObecnosciRef id="1" />
+            </Wpis>
+            <Wpis>
+                <uczenRef id="1"/>
+                <data>2024-09-03</data>
+                <godzinaLekcyjnaRef id="1"/>
+                <statusObecnosciRef id="2" />
+            </Wpis>
+            <Wpis>
+                <uczenRef id="1"/>
+                <data>2024-09-03</data>
+                <godzinaLekcyjnaRef id="2"/>
+                <statusObecnosciRef id="1" />
+            </Wpis>
+            <Wpis>
+                <uczenRef id="1"/>
+                <data>2024-09-03</data>
+                <godzinaLekcyjnaRef id="3"/>
+                <statusObecnosciRef id="3" />
+            </Wpis>
+        </Frekwencja>
+        <IndywidualnyProgramPracyZDzieckiem>
+            <Wpis>
+                <uczenRef id="1"/>
+                <szczegoly>Informacje dotyczące indywidualnej pracy z dzieckiem</szczegoly>
+            </Wpis>
+        </IndywidualnyProgramPracyZDzieckiem>
+    </ZajecRewalidacyjnoWychowawczych>
+</Dziennik>

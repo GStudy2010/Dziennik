@@ -1,0 +1,578 @@
+<!DOCTYPE html><html lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Dziennik innych zajęć</title>
+<style>
+                    @page {
+                        size: A4;
+                        margin: 15mm 15mm 15mm 15mm;
+                    }
+                    body{
+                        width: 745px;
+                        /* to centre page on screen*/
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        font-size: 14px;
+                        background-color: #FFFFFF;
+                        font-family: 'lato' ;
+                    }
+                    strong{
+                        font-size: 18px;
+                    }
+                    .text-center{
+                        text-align: center;
+                    }
+                    .title{
+                        font-size: 35px;
+                    }
+                    h1{
+                        margin-top: 0.5em;
+                        margin-bottom: 0.1em;
+                    }
+                    h2{
+                        font-size: 26px;
+                        margin-top: 0.1em;
+                        margin-bottom: 0.5em;
+                    }
+                    h3{
+                        font-size: 24px;
+                        margin-top: 1em;
+                        margin-bottom: 0.3em;
+                    }
+                    .front-page{
+                        font-size: 14px;
+                    }
+                    table.bootstrap td{
+                        height: 40px;
+                        width: 8.333%;
+                    }
+                    table,td,th{
+                        border: 2px solid #666;
+                        border-collapse: collapse;
+                        padding: 5px 4px;
+                        font-size: 13px;
+                    }
+
+                    .no-border, .no-border td{
+                        border: 0;
+                    }
+                    .thin-border, .thin-border td{
+                        border: 2px solid #666;
+                    }
+                    .text-light{
+                        display: block;
+                        text-align: center;
+                        font-size: 0.8em;
+                    }
+                    td {
+                        text-align:center;
+                        vertical-align:middle;
+                        overflow: hidden;
+                    }
+
+
+                    .left{
+                        text-align: left;
+                    }
+
+                    .font-large{
+                        font-size: 16px;
+                    }
+
+                    .font-larger{
+                        font-size: 20px;
+                    }
+
+                    .font-largerx{
+                        font-size: 24px;
+                    }
+
+                    .font-largerxx{
+                        font-size: 28px;
+                    }
+
+                    .vertical-text {
+                        display: inline-block;
+                        overflow: hidden;
+                        width: 1.5em;
+                    }
+                    .vertical-text__inner {
+                        display: inline-block;
+                        white-space: nowrap;
+                        line-height: 1.5;
+                        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+                        /*Firefox*/
+                        -moz-transform: rotate(-90deg);
+                        /*Safari*/
+                        -webkit-transform: rotate(-90deg);
+                        /*Opera*/
+                        -o-transform: rotate(-90deg);
+                        transform: translate(0,100%) rotate(-90deg);
+                        transform-origin: 0 0;
+                    }
+                    .vertical-text__inner:after {
+                        content: "";
+                        display: block;
+                        margin: -1.5em 0 100%;
+                    }
+
+                    td .vertical-text__inner{
+                        white-space: nowrap;
+                    }
+
+                    /*pagebreaki*/
+                    h3{
+                        font-weight: normal;
+                        page-break-before: left;
+                    }
+                    table {
+                        width: 100%;
+                    }
+                    .width-20 {
+                        width: 20%;
+                    }
+                    .width-10 {
+                        width: 10%;
+                    }
+                </style>
+</head>
+<body><div class="front-page">
+<table class="no-border bootstrap">
+<tr><td colspan="2">
+<strong>Zespół Szkół Policealnych</strong><span class="text-light">
+                                        (Nazwa placówki)
+                                    </span><br>
+</td></tr>
+<tr><td colspan="2" class="text-center">
+<strong>
+            01-123
+            Warszawa
+            Ogrodowa
+            1
+            
+        </strong><span class="text-light">
+                                        (Adres placówki)
+                                    </span><br>
+</td></tr>
+<tr>
+<td>
+<strong>mazowieckie</strong><span class="text-light">
+                                        (województwo)
+                                    </span>
+</td>
+<td>
+<strong>Warszawa Wola</strong><span class="text-light">
+                                        (Gmina/dzielnica)
+                                    </span>
+</td>
+</tr>
+<tr><td colspan="2" class="text-center"><h1 class="title">Dziennik innych zajęć</h1></td></tr>
+<tr><td colspan="2" class="text-center"><h2>2024/2025</h2></td></tr>
+</table>
+<h3> </h3>
+<table class="thin-border bootstrap">
+<tr>
+<th>Numer</th>
+<th>Imię i Nazwisko</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Anna Nowak</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Marian Nowakowski</td>
+</tr>
+</table>
+<h3>Nauczyciele prowadzący zajęcia edukacyjne</h3>
+<table class="thin-border bootstrap">
+<tr>
+<th>Imię i Nazwisko Nauczyciela</th>
+<th>Numer</th>
+</tr>
+<tr>
+<td>Witold Wańkowski</td>
+<td>123</td>
+</tr>
+<tr>
+<td>Marian Nowak</td>
+<td>456</td>
+</tr>
+</table>
+<h3>Zajęcia edukacyjne</h3>
+<table class="thin-border bootstrap">
+<tr>
+<th>Nazwa</th>
+<th>Numer</th>
+<th>Skrót nazwy</th>
+<th>Czy pozalekcyjne</th>
+</tr>
+<tr>
+<td>Biologia</td>
+<td>2</td>
+<td>Biol</td>
+<td>Nie</td>
+</tr>
+<tr>
+<td>Geografia</td>
+<td>4</td>
+<td>Geo</td>
+<td>Nie</td>
+</tr>
+<tr>
+<td>Matematyka</td>
+<td>7</td>
+<td>Mat</td>
+<td>Nie</td>
+</tr>
+</table>
+<h3>Tygodniowy rozkład zajęć (od 2024-09-01)
+                            </h3>
+<table class="  bootstrap bottom-margin">
+<tr>
+<th>Nr lekcji</th>
+<th>Godzina rozpoczęcia zajęć</th>
+<th class="width-10">Poniedziałek</th>
+<th class="width-10">Wtorek</th>
+<th class="width-10">Środa</th>
+<th class="width-10">Czwartek</th>
+<th class="width-10">Piątek</th>
+</tr>
+<tr>
+<td>1</td>
+<td>08:00</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>09:00</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+<tr>
+<td>3</td>
+<td>09:55</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>10:50</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+<tr>
+<td>5</td>
+<td>12:00</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+</table>
+<h3>Tygodniowy rozkład zajęć (od 2024-11-01)
+                            </h3>
+<table class="  bootstrap bottom-margin">
+<tr>
+<th>Nr lekcji</th>
+<th>Godzina rozpoczęcia zajęć</th>
+<th class="width-10">Poniedziałek</th>
+<th class="width-10">Wtorek</th>
+<th class="width-10">Środa</th>
+<th class="width-10">Czwartek</th>
+<th class="width-10">Piątek</th>
+</tr>
+<tr>
+<td>1</td>
+<td>08:00</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>09:00</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+<tr>
+<td>3</td>
+<td>09:55</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>10:50</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>Geografia
+                                                                (Marian Nowak)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+<tr>
+<td>5</td>
+<td>12:00</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+<td>Biologia
+                                                                (Witold Wańkowski)
+                                                                <br>
+</td>
+</tr>
+</table>
+<h3>Tematy zajęć edukacyjnych</h3>
+<table class="  bootstrap bottom-margin">
+<tr>
+<th class="width-20">Data</th>
+<th class="width-20">Temat</th>
+<th class="width-20">Zajęcia edukacyjne</th>
+<th>Nr lekcji</th>
+<th>Czas trwania realizacji</th>
+<th>Od</th>
+<th>Do</th>
+<th>Nauczyciel prowadzący</th>
+</tr>
+<tr>
+<td>2024-01-09</td>
+<td>Temat zajęć lekcyjnych</td>
+<td>Matematyka</td>
+<td>1</td>
+<td>45</td>
+<td>0</td>
+<td>45</td>
+<td>Witold Wańkowski</td>
+</tr>
+<tr>
+<td>2024-01-11</td>
+<td>Temat zajęć lekcyjnych drugi</td>
+<td>Matematyka</td>
+<td>2</td>
+<td>45</td>
+<td>45</td>
+<td>90</td>
+<td>Witold Wańkowski</td>
+</tr>
+</table>
+<h3>Frekwencja uczniów na zajęciach edukacyjnych</h3>
+<table class="thin-border bootstrap">
+<tr>
+<th>Uczeń</th>
+<th>Data</th>
+<th>Godzina lekcyjna</th>
+<th>Status</th>
+</tr>
+<tr>
+<td>Anna Nowak</td>
+<td>2024-09-01</td>
+<td>1<br>08:00</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Anna Nowak</td>
+<td>2024-09-01</td>
+<td>2<br>09:00</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Anna Nowak</td>
+<td>2024-09-01</td>
+<td>3<br>09:55</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Anna Nowak</td>
+<td>2024-09-03</td>
+<td>1<br>08:00</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Anna Nowak</td>
+<td>2024-09-03</td>
+<td>2<br>09:00</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Anna Nowak</td>
+<td>2024-09-03</td>
+<td>3<br>09:55</td>
+<td>NU</td>
+</tr>
+</table>
+</div></body>
+</html>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./schematEksportuDziennika.xsl"?>
+<Dziennik
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="./schematEksportuDziennika.xsd">
+    <ZajecOkresowychLubOkazjonalnych>
+        <ZalozeniaProgramowe>
+            <Wpis>
+                <nazwaProgramu>Nazwa programu</nazwaProgramu>
+                <autorProgramu>Autor programu</autorProgramu>
+                <dataDopuszczenia>2024-12-01</dataDopuszczenia>
+            </Wpis>
+        </ZalozeniaProgramowe>
+        <Nauczyciele>
+            <Nauczyciel id="1">
+                <imie>Jan</imie>
+                <nazwisko>Kowalski</nazwisko>
+            </Nauczyciel>
+            <Nauczyciel id="2">
+                <imie>Anna</imie>
+                <nazwisko>Nowak</nazwisko>
+            </Nauczyciel>
+        </Nauczyciele>
+        <Przedmioty>
+            <Przedmiot id="1">
+                <nazwa>Pierwszy przedmiot</nazwa>
+            </Przedmiot>
+            <Przedmiot id="2">
+                <nazwa>Drugi przedmiot</nazwa>
+            </Przedmiot>
+            <Przedmiot id="3">
+                <nazwa>Trzeci przedmiot</nazwa>
+            </Przedmiot>
+        </Przedmioty>
+        <TematyZLiczbaUczestnikow>
+            <Temat>
+                <data>2024-09-01</data>
+                <tresc>Temat</tresc>
+                <przedmiotRef id="1"/>
+                <numerLekcji>1</numerLekcji>
+                <czasRealizacji>120</czasRealizacji>
+                <czasOd>08:00</czasOd>
+                <czasDo>10:00</czasDo>
+                <nauczycielRef id="1"/>
+                <liczbaUczestnikow>14</liczbaUczestnikow>
+            </Temat>
+            <Temat>
+                <data>2024-09-02</data>
+                <tresc>Temat 2</tresc>
+                <przedmiotRef id="1"/>
+                <numerLekcji>1</numerLekcji>
+                <czasRealizacji>120</czasRealizacji>
+                <czasOd>08:00</czasOd>
+                <czasDo>10:00</czasDo>
+                <nauczycielRef id="1"/>
+                <liczbaUczestnikow>14</liczbaUczestnikow>
+            </Temat>
+        </TematyZLiczbaUczestnikow>
+    </ZajecOkresowychLubOkazjonalnych>
+</Dziennik>

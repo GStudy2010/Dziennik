@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../schematEksportuDziennika.xsl"?>
+<Ksiega
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="../schematKsiegi.xsd">
+    <EwidencjiDzieci>
+    <NazwaPlacowki>Szkoła podstawowa numer 1</NazwaPlacowki>
+    <AdresPlacowki>
+        <KodPocztowy>01-123</KodPocztowy>
+        <Miejscowosc>Warszawa</Miejscowosc>
+        <Ulica>Ogrodowa</Ulica>
+        <NumerDomu>1</NumerDomu>
+        <NumerLokalu></NumerLokalu>
+    </AdresPlacowki>
+    <Wojewodztwo>mazowieckie</Wojewodztwo>
+    <Gmina>Warszawa Wola</Gmina>
+    <DataZalozeniaEwidencji>01.09.2020 r.</DataZalozeniaEwidencji>
+    <Dzieci>
+        <Dziecko id="1">
+            <Numer>1</Numer>
+            <Imie>Anna</Imie>
+            <Nazwisko>Nowak</Nazwisko>
+            <DataUrodzenia>2000-05-05</DataUrodzenia>
+            <MiejsceUrodzenia>Gdańsk</MiejsceUrodzenia>
+            <Pesel>001291019122</Pesel>
+            <Adres>
+                <KodPocztowy>00-123</KodPocztowy>
+                <Miejscowosc>Warszawa</Miejscowosc>
+                <Ulica>Aleje Jerozolimskie</Ulica>
+                <NumerDomu>1</NumerDomu>
+                <NumerLokalu>3</NumerLokalu>
+            </Adres>
+            <Rodzice>
+                <Rodzic id="1">
+                <Imie>Wiktor</Imie>
+                <Nazwisko>Nowak</Nazwisko>
+                <Adres>
+                    <KodPocztowy>00-123</KodPocztowy>
+                    <Miejscowosc>Warszawa</Miejscowosc>
+                    <Ulica>Aleje Jerozolimskie</Ulica>
+                    <NumerDomu>2</NumerDomu>
+                    <NumerLokalu>4</NumerLokalu>
+                </Adres>
+                </Rodzic>
+                <Rodzic id="2">
+                    <Imie>Anna</Imie>
+                    <Nazwisko>Nowak</Nazwisko>
+                    <Adres>
+                        <KodPocztowy>00-123</KodPocztowy>
+                        <Miejscowosc>Warszawa</Miejscowosc>
+                        <Ulica>Aleje Jerozolimskie</Ulica>
+                        <NumerDomu>2</NumerDomu>
+                        <NumerLokalu>4</NumerLokalu>
+                    </Adres>
+                </Rodzic>
+            </Rodzice>
+            <InformacjeOPrzedszkolu>Przedszkole nr 1</InformacjeOPrzedszkolu>
+            <InformacjeOOdroczeniu>Informacje o odroczeniu</InformacjeOOdroczeniu>
+            <InformacjeOSzkoleLubMiejscuRealizacjiZajecRewalidacyjnoWychowawczych>Informacje o szkole, w tym o szkole za granicą lub przy przedstawicielstwie dyplomatycznym innego państwa w Polsce</InformacjeOSzkoleLubMiejscuRealizacjiZajecRewalidacyjnoWychowawczych>
+            <InformacjeOSpelnianiuPrzezDzieckoObowiazkuSzkolnegoPozaSzkola>Informacje o spełnianiu przez dziecko obowiązku szkolnego poza szkołą</InformacjeOSpelnianiuPrzezDzieckoObowiazkuSzkolnegoPozaSzkola>
+        </Dziecko>
+        <Dziecko id="2">
+            <Numer>2</Numer>
+            <Imie>Marian</Imie>
+            <Nazwisko>Nowakowski</Nazwisko>
+            <DataUrodzenia>2000-05-05</DataUrodzenia>
+            <MiejsceUrodzenia>Warszawa</MiejsceUrodzenia>
+            <NazwaINumerDokumentuPotwierdzajacegoTozsamosc>Dowód osobisty AZA 1234</NazwaINumerDokumentuPotwierdzajacegoTozsamosc>
+            <Adres>
+                <KodPocztowy>00-170</KodPocztowy>
+                <Miejscowosc>Warszawa</Miejscowosc>
+                <Ulica>Marszałkowska</Ulica>
+                <NumerDomu>1</NumerDomu>
+                <NumerLokalu>3</NumerLokalu>
+            </Adres>
+        </Dziecko>
+    </Dzieci>
+    </EwidencjiDzieci>
+</Ksiega>
